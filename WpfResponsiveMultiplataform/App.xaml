@@ -1,0 +1,25 @@
+﻿<Application x:Class="WpfResponsiveMultiplataform.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfResponsiveMultiplataform"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+                <ResourceDictionary Source="Styles/BaseStyle.xaml" />
+                <ResourceDictionary Source="Styles/DesktopStyle.xaml" />
+                <ResourceDictionary Source="Styles/TabletStyle.xaml" />
+                <ResourceDictionary Source="Styles/MobileStyle.xaml" />
+                
+                <ResourceDictionary Source="Templates/BaseTemplate.xaml" />
+                <ResourceDictionary Source="Templates/DesktopTemplate.xaml" />
+                <ResourceDictionary Source="Templates/TabletTemplate.xaml" />
+                <ResourceDictionary Source="Templates/MobileTemplate.xaml" />
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>
